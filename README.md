@@ -1,12 +1,29 @@
 # Svelte & Tailwind CSS Template
 
 This is a project template for [Svelte](https://svelte.dev) and [Tailwind CSS](https://github.com/tailwindcss/tailwindcss) apps.
-It lives at https://github.com/mhyfritz/svelte-tailwind-template.
+It lives at https://github.com/mhyfritz/svelte-tailwind-template and is a fork from
+[the official Svelte project template](https://github.com/sveltejs/template)—kudos to the original authors!
+
+## Content
+
+- [Svelte](https://github.com/sveltejs/svelte) v3 with a [Rollup](https://github.com/rollup/rollup) setup
+- [Tailwind CSS](https://github.com/tailwindcss/tailwindcss) v1.4
+  - [PostCSS](https://github.com/postcss/postcss) setup with [Autoprefixer](https://github.com/postcss/autoprefixer)
+  - [Purging of unused CSS](https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css)
+  - _optional_ [Tailwind UI setup](https://tailwindui.com/documentation) that adds
+    - `@tailwindcss/ui` plugin
+    - [Inter](https://rsms.me/inter/) font family
+
+## Installation
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
 npx degit mhyfritz/svelte-tailwind-template svelte-tailwind-app
+
+# for the Tailwind UI setup:
+# npx degit mhyfritz/svelte-tailwind-template#tailwind-ui svelte-tailwind-app
+
 cd svelte-tailwind-app
 ```
 
