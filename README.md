@@ -11,7 +11,7 @@ It lives at https://github.com/mhyfritz/svelte-tailwind-template and is a fork f
   - [PostCSS](https://github.com/postcss/postcss) setup with [Autoprefixer](https://github.com/postcss/autoprefixer)
   - [Purging of unused CSS](https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css)
   - _optional_ [Tailwind UI setup](https://tailwindui.com/documentation) that adds
-    - `@tailwindcss/ui` plugin
+    - `@tailwindcss/ui` plugin (and in extension [`@tailwindcss/custom-forms`](https://github.com/tailwindcss/custom-forms))
     - [Inter](https://rsms.me/inter/) font family
 
 ## Installation
