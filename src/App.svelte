@@ -24,14 +24,11 @@
 
 <style>
   .btn {
-    /* currently, @tailwindcss/ui doesn't generate `current` color classes */
-    /* @apply font-semibold py-2 px-4 rounded-md text-blue-500 border border-current; */
-    @apply font-semibold py-2 px-4 rounded-md text-blue-500 border border-blue-500;
+    @apply font-semibold py-2 px-4 rounded-md text-blue-500 border border-current;
   }
 
   .btn:hover,
   .btn:focus {
-    /* @apply text-blue-200; */
-    @apply text-blue-200 border-blue-200;
+    @apply text-blue-200;
   }
 </style>
