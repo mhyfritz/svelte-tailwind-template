@@ -4,9 +4,12 @@ This is a project template for [Svelte](https://svelte.dev) and [Tailwind CSS](h
 It lives at https://github.com/mhyfritz/svelte-tailwind-template and is a fork from
 [the official Svelte project template](https://github.com/sveltejs/template)—kudos to the original authors!
 
-## Content
+## What's inside
 
 - [Svelte](https://github.com/sveltejs/svelte) v3 with a [Rollup](https://github.com/rollup/rollup) setup
+  - [`svelte-preprocess`](https://github.com/sveltejs/svelte-preprocess) setup
+    to support [`@apply`](https://tailwindcss.com/docs/extracting-components/#extracting-css-components-with-apply)
+    inside Svelte components
 - [Tailwind CSS](https://github.com/tailwindcss/tailwindcss) v1.4
   - [PostCSS](https://github.com/postcss/postcss) setup with [Autoprefixer](https://github.com/postcss/autoprefixer)
   - [Purging of unused CSS](https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css)
