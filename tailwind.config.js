@@ -1,12 +1,7 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  purge: {
-    content: ["./public/**/*.html", "./src/**/*.svelte"],
-    options: {
-      defaultExtractor: (content) => content.match(/[\w-/.:]+(?<!:)/g) || [],
-    },
-  },
+  purge: ["./public/**/*.html", "./src/**/*.svelte"],
   theme: {
     extend: {
       colors: {
